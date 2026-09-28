@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="author" content="Your Name">
+<title>Hook, Line &amp; Sinker: Phishing Awareness</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav id="nav" aria-label="Pages"></nav>
+<main>
+
+<section id="home">
+<h1>Every scam starts with a message that looks fine.</h1>
+<p class="lead">Phishing tricks people into handing over passwords, money or access by pretending to be someone they trust. This short course shows you how to spot it, why it works, and what to do.</p>
+<div class="stat">
+<div><b>Most</b>data breaches involve a human element, such as a clicked link or a stolen password.</div>
+<div><b>1 click</b>is often all an attacker needs to install malware or capture a login.</div>
+<div><b>Any channel</b>email, SMS, phone calls, QR codes and chat apps are all used.</div>
+</div>
+<button class="btn" data-go="recognize">Start learning</button>
+<button class="btn alt" data-go="quiz">Jump to the quiz</button>
+<h3>What you will learn</h3>
+<ul class="tips">
+<li><b>Recognize</b> phishing emails and fake websites</li>
+<li><b>Understand</b> the psychology attackers exploit</li>
+<li><b>Study</b> real incidents that cost millions</li>
+<li><b>Apply</b> habits that keep you and your organization safe</li>
+</ul>
+</section>
+
+<section id="recognize">
+<h2>Recognize phishing emails</h2>
+<p>Tap each highlighted part of this fake email to see what gives it away.</p>
+<div class="mail">
+<div class="hd">From: <button class="flag" data-f="0">Payroll Team &lt;hr-support@paypal-payrol1.com&gt;</button><br>Subject: <button class="flag" data-f="1">URGENT: Action required within 2 hours</button></div>
+<div class="bd">
+<p><button class="flag" data-f="2">Dear Customer,</button></p>
+<p>We could not process your salary deposit. Your account will be <button class="flag" data-f="3">suspended and your pay withheld</button> unless you confirm your details now.</p>
+<p><button class="flag" data-f="4">Verify my account</button></p>
+<p><button class="flag" data-f="5">Open the attached Payslip_Sept.html.exe</button></p>
+</div></div>
+<div id="note" role="status">Tap a highlight to reveal why it is suspicious.</div>
+
+<h3>The quick checklist</h3>
+<ul class="tips">
+<li><b>Sender:</b> Does the address match the real domain exactly? Look for swapped letters or a "1" in place of an "l".</li>
+<li><b>Greeting:</b> Generic openings suggest mass mailing, though targeted attacks will use your name.</li>
+<li><b>Pressure:</b> Deadlines, threats and rewards are designed to stop you thinking.</li>
+<li><b>Links:</b> Hover (or long-press) to preview the real destination before you tap.</li>
+<li><b>Attachments:</b> Unexpected files, especially .exe, .html, .zip or macro documents, are high risk.</li>
+<li><b>Request:</b> Legitimate companies rarely ask for passwords, codes or gift cards by email.</li>
+</ul>
+
+<h2 style="margin-top:2em">Recognize fake websites</h2>
+<div class="card bad"><h3>Look-alike address</h3><p>Compare these two:<br><span class="url">https://accounts.google.com</span><br><span class="url">https://accounts.google.com.secure-login.net</span><br>The real domain is the part just before the first single slash, read right to left. The second belongs to <b>secure-login.net</b>.</p></div>
+<div class="card bad"><h3>Tricks with characters</h3><p><span class="url">rnicrosoft.com</span> uses "rn" to imitate "m". Some attacks use foreign letters that look identical to Latin ones.</p></div>
+<div class="card good"><h3>The padlock is not proof</h3><p>HTTPS only means the connection is encrypted. Many phishing sites use it. Check the domain, not the lock.</p></div>
+<div class="card bad"><h3>Other warning signs</h3><p>Login pages reached from a message rather than typed or bookmarked, poor spelling or blurry logos, pop-ups asking for credentials, and forms that ask for far more than a normal login.</p></div>
+</section>
+
+<section id="tactics">
+<h2>Social engineering tactics</h2>
+<p>Phishing works because it targets people, not software. Attackers rely on a small set of psychological levers.</p>
+<div class="card bad"><h3>Urgency and fear</h3><p>"Your account will be closed in one hour." Time pressure cuts off careful thinking.</p></div>
+<div class="card bad"><h3>Authority</h3><p>Messages that appear to come from a CEO, bank, police or IT department make people comply without checking.</p></div>
+<div class="card bad"><h3>Curiosity and greed</h3><p>Prize notices, "you have a parcel" texts and leaked-document lures reward a click.</p></div>
+<div class="card bad"><h3>Trust and helpfulness</h3><p>Attackers exploit our wish to help a colleague in trouble or a support agent who "just needs a quick code".</p></div>
+<h3>Common variants</h3>
+<ul class="tips">
+<li><b>Spear phishing:</b> researched, personalized messages aimed at one person.</li>
+<li><b>Whaling:</b> spear phishing aimed at executives.</li>
+<li><b>Business email compromise:</b> impersonating a boss or supplier to redirect payments.</li>
+<li><b>Smishing and vishing:</b> the same tricks by SMS and phone call.</li>
+<li><b>Quishing:</b> malicious QR codes on posters, parking meters or emails.</li>
+<li><b>Pretexting and baiting:</b> an invented story, or a tempting item such as a dropped USB stick.</li>
+<li><b>MFA fatigue:</b> flooding you with approval prompts until you tap "Accept".</li>
+</ul>
+</section>
+
+<section id="examples">
+<h2>Real-world examples</h2>
+<div class="card bad"><h3>Fake invoices to Google and Facebook (2013 to 2015)</h3><p>A scammer posed as a hardware supplier and sent convincing invoices and contracts. Two of the world's largest tech companies paid out more than $100 million in total before the fraud was found. Lesson: verify payment changes through a separate channel.</p></div>
+<div class="card bad"><h3>Fake Google security alert (2016)</h3><p>A spear-phishing email imitating a Google sign-in warning led a political campaign chairman to enter his password on a fake page. Thousands of private emails were later leaked. Lesson: go to the account site directly instead of using the link.</p></div>
+<div class="card bad"><h3>Twitter phone-spearphishing (2020)</h3><p>Attackers phoned employees pretending to be internal IT and captured credentials for internal tools, then took over high-profile accounts to run a cryptocurrency scam. Lesson: phone calls can be social engineering too.</p></div>
+<div class="card bad"><h3>RSA breach (2011)</h3><p>Small groups of employees received an email titled "2011 Recruitment plan" with a spreadsheet attached. Opening it exploited a flaw and started an intrusion at a major security company. Lesson: even experts get fooled by a plausible attachment.</p></div>
+<div class="card bad"><h3>Casino help-desk call (2023)</h3><p>An attacker reportedly found an employee's details on a professional network and impersonated them to a help desk to reset access, leading to major disruption at a large resort operator. Lesson: help desks need strict identity checks.</p></div>
+<p style="color:var(--mute);font-size:.9rem">Summaries are simplified from public reporting.</p>
+</section>
+
+<section id="protect">
+<h2>Best practices</h2>
+<div class="card good"><h3>Before you click</h3><ul class="tips"><li>Pause. Ask "was I expecting this?"</li><li>Preview the link. Better yet, type the address or use a bookmark.</li><li>Confirm unusual requests by calling a number you already know.</li></ul></div>
+<div class="card good"><h3>Protect your accounts</h3><ul class="tips"><li>Use a password manager. It will not autofill on a fake domain, which is a useful alarm.</li><li>Turn on multi-factor authentication, preferably passkeys or security keys.</li><li>Never share one-time codes. Nobody legitimate needs them from you.</li></ul></div>
+<div class="card good"><h3>Keep devices safe</h3><ul class="tips"><li>Install updates promptly.</li><li>Use up-to-date endpoint protection and email filtering.</li><li>Do not enable macros or run unexpected attachments.</li></ul></div>
+<div class="card good"><h3>If you clicked</h3><ul class="tips"><li>Disconnect from the network if you opened a file.</li><li>Change the affected password everywhere it was used, from a clean device.</li><li>Report it to IT or your provider right away. Speed limits damage, and reporting is not punished by good teams.</li><li>Report phishing to your email provider, or forward to reportphishing@apwg.org.</li></ul></div>
+</section>
+
+<section id="quiz">
+<h2>Test yourself</h2>
+<div class="bar"><i id="prog" style="width:0"></i></div>
+<div id="qbox"></div>
+</section>
+
+</main>
+<footer>Created by <b>Saksham Shah</b> · Phishing Awareness Module</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
