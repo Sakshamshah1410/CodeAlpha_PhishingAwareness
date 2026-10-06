@@ -40,6 +40,4 @@ Phishing-Awareness/
 │   └── ...
 └── README.md
 
-𝗚𝗶𝘁𝗛𝘂𝗯 𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝘆: https://github.com/Sakshamshah1410/CodeAlpha_PhishingAwareness.git
-
-#CyberSecurity #PhishingAwareness #Phishing #CyberAwareness #InformationSecurity #EthicalHacking #NetworkSecurity #WebSecurity #CyberSafety #CyberSecurityInternship #CodeAlpha #InternshipProject #HTML #CSS #JavaScript #CybersecurityStudent #TechProjects #SecurityAwareness #LearnCyberSecurity #BTechCSE 
+𝗚𝗶𝘁𝗛𝘂𝗯 𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝘆: https://github.com/Sakshamshah1410/CodeAlpha_PhishingAwareness.git 
